@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kora Mobile App</title>
+    <title>Kora Mobile App Privacy Policy</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -15,9 +15,9 @@
             </div>
             <div class="nav-right">
                 <div class="nav-links">
-                    <a href="index.html" class="active">Home</a>
+                    <a href="index.html">Home</a>
                     <a href="support.html">Support</a>
-                    <a href="privacy-policy.html">Privacy</a>
+                    <a href="privacy-policy.html" class="active">Privacy</a>
                 </div>
                 <button class="theme-toggle" aria-label="Toggle dark mode">
                     <i class="fas fa-moon"></i>
@@ -26,45 +26,45 @@
         </div>
     </nav>
 
-    <div class="hero">
-        <h1>Welcome to Kora</h1>
-        <p>Your AI-powered study companion at Koç University</p>
-        <div class="download-buttons">
-            <a href="#app-store" class="store-button">
-                <i class="fab fa-apple"></i>
-                <span class="button-text">
-                    <small>Download on the</small>
-                    <strong>App Store</strong>
-                </span>
-            </a>
-            <a href="#play-store" class="store-button">
-                <i class="fab fa-google-play"></i>
-                <span class="button-text">
-                    <small>GET IT ON</small>
-                    <strong>Google Play</strong>
-                </span>
-            </a>
-        </div>
+    <h1>Privacy Policy</h1>
+    <p>Welcome to the Kora Mobile App Privacy Policy. This document explains how we collect, use, and safeguard your data.</p>
+    
+    <div class="card">
+        <h2>Data Collection</h2>
+        <ul>
+            <li><strong>What we collect:</strong> Your name, email address, and Google account profile picture for personalization.</li>
+            <li><strong>How it's used:</strong> To deliver a seamless and personalized user experience.</li>
+        </ul>
     </div>
-
-    <div class="features">
-        <div class="feature-card">
-            <h2>Smart Learning</h2>
-            <p>Personalized AI assistance for your academic journey</p>
-        </div>
-        <div class="feature-card">
-            <h2>Secure & Private</h2>
-            <p>Your data is protected with industry-standard security</p>
-        </div>
-        <div class="feature-card">
-            <h2>24/7 Support</h2>
-            <p>Get help whenever you need it</p>
-        </div>
+    
+    <div class="card">
+        <h2>Data Storage and Security</h2>
+        <ul>
+            <li>Your chat history is securely stored in Firebase with industry-standard encryption.</li>
+            <li>We use HTTPS for secure communication between the app and servers.</li>
+        </ul>
+    </div>
+    
+    <div class="card">
+        <h2>Third-Party Services</h2>
+        <ul>
+            <li>We integrate with OpenAI's API to process inquiries. OpenAI does not use your chat data for training.</li>
+            <li>Firebase is used for secure data storage and management.</li>
+        </ul>
+    </div>
+    
+    <div class="card">
+        <h2>Your Rights</h2>
+        <ul>
+            <li>You can delete your data at any time through the app's settings.</li>
+            <li>We comply with GDPR and CCPA regulations to ensure your privacy is safeguarded.</li>
+        </ul>
     </div>
 
     <footer>
         &copy; 2025 Kora Mobile App. All Rights Reserved. Built for the Koç University community.
     </footer>
+
     <script>
         // Check for saved theme preference, otherwise use system preference
         const getPreferredTheme = () => {
